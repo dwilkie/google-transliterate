@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://translate.google.com/translate_a/t?client=t&sl=th&ie=UTF-8&oe=UTF-8&q=%E0%B9%80%E0%B8%94%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B9%84%E0%B8%A5%E0%B8%81%E0%B8%AA%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%A3%E0%B9%8C
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      user-agent:
+      - Mozilla/5.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      pragma:
+      - no-cache
+      date:
+      - Thu, 11 Jul 2013 17:09:30 GMT
+      expires:
+      - Thu, 11 Jul 2013 17:09:30 GMT
+      cache-control:
+      - private, max-age=600
+      content-type:
+      - text/javascript; charset=UTF-8
+      content-language:
+      - en
+      set-cookie:
+      - PREF=ID=e40f8e14f23c9b43:TM=1373562569:LM=1373562570:S=eKHsgyxbQxRW6ay_; expires=Sat,
+        11-Jul-2015 17:09:30 GMT; path=/; domain=.google.com
+      x-content-type-options:
+      - nosniff
+      content-disposition:
+      - attachment
+      server:
+      - HTTP server (unknown)
+      x-xss-protection:
+      - 1; mode=block
+      connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W1tbIkRhdmlkIEEuIExpZ2h0IEJlZXIgLiIsIuC5gOC4lOC4p+C4tOC4lOC5
+        hOC4peC4geC4quC5gOC4muC4teC4ouC4o+C5jCIsIiIsIkRld2lkIGzhu4tr
+        c8yEIGJlxKt5csySIl1dLCwidGgiLCxbWyJEYXZpZCIsWzRdLDEsMCw5OTAs
+        MCwxLDBdLFsiQS4iLFs1XSwxLDAsNTk1LDEsMiwwXSxbIkxpZ2h0IixbNl0s
+        MSwwLDU5MiwyLDMsMF0sWyJCZWVyIixbN10sMSwwLDU5MiwzLDQsMF0sWyIu
+        IixbOF0sMCwwLDU5Miw0LDUsMF1dLFtbIuC5gOC4lOC4p+C4tOC4lCIsNCxb
+        WyJEYXZpZCIsOTkwLDEsMF0sWyJCeSBEYXZpZCIsMCwxLDBdXSxbWzAsNV1d
+        LCLguYDguJTguKfguLTguJTguYTguKXguIHguKrguYDguJrguLXguKLguKPg
+        uYwiXSxbIuC4gSIsNSxbWyJBLiIsNTk1LDEsMF0sWyJXIiwxMiwxLDBdLFsi
+        TmV3cyIsNiwxLDBdLFsiUmVwdWJsaWMiLDAsMSwwXV0sW1s3LDhdXSwiIl0s
+        WyLguYTguKUiLDYsW1siTGlnaHQiLDU5MiwxLDBdLFsiTGl2ZSIsMTUsMSww
+        XSxbIkhlYWQiLDIsMSwwXSxbImxpbmUiLDAsMSwwXSxbIkxlaWRlbiIsMCwx
+        LDBdXSxbWzUsN11dLCIiXSxbIuC4qiDguYDguJrguLXguKLguKPguYwiLDcs
+        W1siQmVlciIsNTkyLDEsMF1dLFtbOCwxNV1dLCIiXSxbIi4iLDgsW1siLiIs
+        NTkyLDAsMF1dLFtbOSwxNV1dLCIiXV0sLCxbWyJ0aCJdXSw5N10=
+    http_version: '1.1'
+  recorded_at: Thu, 11 Jul 2013 17:09:30 GMT
+recorded_with: VCR 2.5.0

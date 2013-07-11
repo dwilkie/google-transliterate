@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://translate.google.com/translate_a/t?client=t&sl=kh&ie=UTF-8&oe=UTF-8&q=%E1%9E%8A%E1%9F%81%E1%9E%9C%E1%9E%B7%E1%9E%8C%E1%9E%9B%E1%9F%83%E1%9E%80%E1%9E%9F%E1%9E%94%E1%9F%80%E1%9E%9A
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      user-agent:
+      - Mozilla/5.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      pragma:
+      - no-cache
+      date:
+      - Thu, 11 Jul 2013 17:22:18 GMT
+      expires:
+      - Thu, 11 Jul 2013 17:22:18 GMT
+      cache-control:
+      - private, max-age=600
+      content-type:
+      - text/javascript; charset=UTF-8
+      content-language:
+      - en
+      set-cookie:
+      - PREF=ID=fea4ba32c6c5ec37:TM=1373563338:LM=1373563338:S=xPEsSNBt1KMI8n2B; expires=Sat,
+        11-Jul-2015 17:22:18 GMT; path=/; domain=.google.com
+      x-content-type-options:
+      - nosniff
+      content-disposition:
+      - attachment
+      server:
+      - HTTP server (unknown)
+      x-xss-protection:
+      - 1; mode=block
+      connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W1tbIkRldmVsb3BtZW50IGFkanVzdGVkIHRlcm1zIiwi4Z6K4Z+B4Z6c4Z63
+        4Z6M4Z6b4Z+D4Z6A4Z6f4Z6U4Z+A4Z6aIiwiIiwiZGUgdmkgZCBsZWkgayBz
+        YSBiaWVyIl1dLCwia20iLCxbWyJEZXZlbG9wbWVudCIsWzRdLDAsMCwxMDAw
+        LDAsMSwwXSxbImFkanVzdGVkIixbNV0sMSwwLDEwMDAsMSwyLDBdLFsidGVy
+        bXMiLFs2XSwxLDAsMTAwMCwyLDMsMF1dLFtbIuGejCIsNCxbWyJEZXZlbG9w
+        bWVudCIsMTAwMCwwLDBdLFsicHJvZ3Jlc3MiLDAsMCwwXSxbIndvcmsiLDAs
+        MCwwXSxbIm5hdGlvbmFsIGxldmVsIiwwLDAsMF1dLFtbNCw1XV0sIuGeiuGf
+        geGenOGet+GejOGem+Gfg+GegOGen+GelOGfgOGemiJdLFsi4Z6b4Z+DIiw1
+        LFtbImFkanVzdGVkIiwxMDAwLDEsMF0sWyJBZGp1c3QiLDAsMSwwXSxbIkFk
+        anVzdG1lbnQiLDAsMSwwXSxbIkFkanVzdCB0aGUiLDAsMSwwXSxbInJlamVj
+        dGVkIiwwLDEsMF1dLFtbNSw3XV0sIiJdLFsi4Z6U4Z+A4Z6aIiw2LFtbInRl
+        cm1zIiwxMDAwLDEsMF0sWyJCZWVyIiwwLDEsMF0sWyJzYWxhcnkiLDAsMSww
+        XSxbIkVkdWNhdGlvbiIsMCwxLDBdXSxbWzksMTJdXSwiIl1dLCwsW1sia20i
+        XV0sMV0=
+    http_version: '1.1'
+  recorded_at: Thu, 11 Jul 2013 17:22:18 GMT
+recorded_with: VCR 2.5.0
