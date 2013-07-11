@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 require 'spec_helper'
-require './lib/google/transliterate/transliterator'
+require 'google/transliterate'
 
 module Google
   module Transliterate
