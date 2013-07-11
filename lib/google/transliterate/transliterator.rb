@@ -1,6 +1,6 @@
 # encoding: utf-8
 module Google
-  module Translite
+  module Transliterate
     class Transliterator
       require 'httparty'
 

@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-    require 'google-transliterate'
+    require 'google/transliterate'
 
     transliterator = Google::Transliterate::Transliterator.new
     transliterator.transliterate!("kh", "ដេវិឌលៃកសបៀរ")
