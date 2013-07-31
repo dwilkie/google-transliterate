@@ -2,8 +2,6 @@
 
 Uses Google Translate to transliterate from a script into phonetic English. For example, "เดวิดไลกสเบียร์" becomes "Dewid lịks̄ beīyr̒"" and "ដេវិឌលៃកសបៀរ" becomes "de vi d lei k sa bier".
 
-Note: This gem does not use that Google Translate API because I want to support Alpha languages such as Khmer. Use at your own risk!
-
 [![Build Status](https://travis-ci.org/dwilkie/google-transliterate.png)](https://travis-ci.org/dwilkie/google-transliterate) [![Dependency Status](https://gemnasium.com/dwilkie/google-transliterate.png)](https://gemnasium.com/dwilkie/google-transliterate) [![Code Climate](https://codeclimate.com/github/dwilkie/google-transliterate.png)](https://codeclimate.com/github/dwilkie/google-transliterate)
 
 ## Installation
