@@ -10,23 +10,31 @@ Note: This gem does not use that Google Translate API because I want to support 
 
 Add this line to your application's Gemfile:
 
-    gem 'google-transliterate'
+```ruby
+gem 'google-transliterate'
+```
 
 And then execute:
 
-    $ bundle
+```shell
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install google-transliterate
+```shell
+$ gem install google-transliterate
+```
 
 ## Usage
 
-    require 'google/transliterate'
+```ruby
+require 'google/transliterate'
 
-    transliterator = Google::Transliterate::Transliterator.new
-    transliterator.transliterate!("kh", "ដេវិឌលៃកសបៀរ")
-    => "de vi d lei k sa bier"
+transliterator = Google::Transliterate::Transliterator.new
+transliterator.transliterate!("kh", "ដេវិឌលៃកសបៀរ")
+=> "de vi d lei k sa bier"
+```
 
 ## Contributing
 
